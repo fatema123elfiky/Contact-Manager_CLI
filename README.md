@@ -1,6 +1,4 @@
-# Contact Manager CLI (C#)
-
-## 📌 Microsoft Summer Internship 2026  
+# 📌 Microsoft Summer Internship ( Contact Manager CLI (C#) )2026  
 
 ---
 
@@ -23,7 +21,7 @@ This application addresses these issues by providing a modern, structured, and m
 
 ---
 
-## 🧩 Features
+##  Features
 
 ### Contact Management
 Users can:
@@ -44,11 +42,13 @@ Each contact includes:
 
 ### Additional Operations
 - Search contacts by name, phone, or email
-- Filter contacts based on criteria
+- Filter contacts based on Date of creating contact "Could be extended by OC principle" 
 - Save contacts to JSON storage
 
 ---
-
+## Applying SOLID Principles and OO design
+- OCP for extending versions of services adding new services 
+- Coding to an interface
 ## Application Flow
 
 1. Load stored contacts (if any)
@@ -65,9 +65,9 @@ Each contact includes:
 3. Delete Contact  
 4. View Contact  
 5. List Contacts  
-6. Search  
-7. Filter  
-8. Save  
+6. Search by any keyword referring to name , ID , etc any property og the contact 
+7. Filter by Date of creating contact
+8. Save to ensure before close wether need that changes or not "that step the user should take care of it"
 9. Exit  
 
 ---
@@ -75,7 +75,6 @@ Each contact includes:
 ## 🛠️ Technologies Used
 
 - **Language:** C#
-- **Platform:** .NET
 - **Storage:** JSON file
 - **Architecture:** Object-Oriented Programming
 - **Design Principles:** SOLID
@@ -85,8 +84,8 @@ Each contact includes:
 ## ▶️ How to Run the Application
 
 ### Prerequisites
-- .NET SDK installed (version 6.0 or higher)
-- Any C# IDE (Visual Studio, Rider, or VS Code)
+- .NET SDK installed (version 8.0 )
+- Any C# IDE
 
 ### Steps
 1. Clone the repository:
